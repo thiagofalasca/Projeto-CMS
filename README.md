@@ -1,27 +1,27 @@
-# CMS Simples com Node.js e Mustache
+# Simple CMS with Node.js and Mustache
 
-Este é um projeto de CMS (Content Management System) simples, desenvolvido com Node.js e Mustache. O objetivo é fornecer uma plataforma fácil de usar para gerenciar conteúdo de páginas da web.
+This is a simple CMS (Content Management System) project developed with Node.js and Mustache. The goal is to provide an easy-to-use platform for managing web page content.
 
-## Recursos
+## Features
 
-1. **Sistema de Login**: O sistema possui um mecanismo de login para o administrador de conteúdo. As credenciais são armazenadas em um arquivo de configuração `.env`.
+1. **Login System**: The system has a login mechanism for the content administrator. The credentials are stored in a `.env` configuration file.
 
-2. **Criação Dinâmica de Páginas**: Os administradores logados podem criar novas páginas, especificando a URL e o conteúdo desejado. O conteúdo pode incluir marcação HTML ou Markdown.
+2. **Dynamic Page Creation**: Logged-in administrators can create new pages by specifying the URL and desired content. The content can include HTML.
 
-3. **Edição de Conteúdo**: Os administradores podem editar o conteúdo de qualquer página, mas a URL definida não pode ser modificada.
+3. **Content Editing**: Administrators can edit the content of any page, but the defined URL cannot be modified.
 
-4. **Exclusão de Páginas**: Os administradores podem excluir páginas, removendo permanentemente seu conteúdo e rota do sistema.
+4. **Page Deletion**: Administrators can delete pages, permanently removing their content and route from the system.
 
-5. **Página Inicial**: A página inicial lista todas as páginas criadas e fornece links para acessá-las. Não é necessário login para visualizar a página inicial.
+5. **Home Page**: The home page lists all created pages and provides links to access them. No login required to view the home page.
 
-6. **Visualizador de Páginas**: Qualquer pessoa pode acessar o conteúdo de uma página a partir da URL definida na criação da página.
+6. **Page Viewer**: Anyone can access the content of a page from the URL defined when creating the page.
 
-7. **Recurso Extra**: Nosso CMS possui um recurso extra de adição de múltiplos usuários administradores.
+7. **Extra Feature**: Our CMS has an extra feature of adding multiple admin users.
 
-## Como Usar
+## How to Use
 
-1. Clone este repositório.
-2. Instale as dependências com `npm install`.
-3. Configure o arquivo `.env` com suas credenciais de administrador.
-4. Inicie o servidor com `npm start`.
-5. Acesse `http://localhost:3000` em seu navegador.
+1. Clone this repository.
+2. Install the dependencies with `npm install`.
+3. Configure the `.env` file with your admin credentials.
+4. Start the server with `npm start`.
+5. Access `http://localhost:3000` in your browser.
